@@ -1,7 +1,6 @@
 package programmer.zama.now.data;
 
-public record LoginRequest(String username, String password)
-{
+public record LoginRequest(String username, String password) {
 	public LoginRequest {
 		System.out.println("Membuat object LoginRequest");
 	}
